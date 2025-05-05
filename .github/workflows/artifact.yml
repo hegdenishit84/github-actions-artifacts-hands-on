@@ -29,5 +29,5 @@ jobs:
         name: hello-artifact
         path: ./
     - name: display-text
-      run: cat ./artifacts/hello.txt
+      run: ls - al
 
